@@ -19,8 +19,4 @@ import { FormsModule, FormGroup, FormControl, Validators, ReactiveFormsModule} f
 export class AppComponent {
   title = 'MovieRecFront';
 
-
-  submit(){
-
-  }
 }

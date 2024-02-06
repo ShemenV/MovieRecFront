@@ -1,22 +1,27 @@
 .movieItemContainer{
   display: flex;
   flex-direction: row;
-  width: 50vw;
+  width: 40vw;
   justify-content: space-between;
   padding: 10px;
-  background: rebeccapurple
-;
+  padding-right: 20px;
+  background: white;
+  margin-bottom: 10px;
+  box-shadow:1px 2px 4px #5b5b5b;
+  border-radius: 8px;
 }
 
 .nameGenreContainer{
   display: flex;
   flex-direction: column;
-  background: aqua;
 }
 
 .ratingCountContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: aquamarine;
+}
+
+.ratingCountContainer p:first-of-type{
+  font-weight: bold;
 }

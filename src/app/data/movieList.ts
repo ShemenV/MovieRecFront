@@ -1,4 +1,4 @@
-export const movies = {
+export let movies = {
   title: {
     378: "Shawshank Redemption, The (1994)",
     385: "Godfather, The (1972)",
@@ -58,5 +58,21 @@ export const movies = {
     501: 4.1926267579,
     411: 4.1920852731,
     494: 4.1879662112
+  }
+}
+
+
+export let moviesByUser = {
+  title: {
+   0: "Lethal Weapon (1987)",
+   1: "Heavy Metal (1981)",
+   2: "Schindler's List (1993)",
+   3: "Exotica (1994)",
+   4: "Mulholland Drive (2001)",
+   5: "Minority Report (2002)",
+   6: "Rocky (1976)",
+   7: "Requiem for a Dream (2000)",
+   8: "Gods and Monsters (1998)",
+   9: "Armageddon (1998)"
   }
 }

@@ -1,1 +1,30 @@
-<p>recomendation-by-genre-page works!</p>
+<div class="top10Container">
+  <mat-form-field>
+    <mat-label>Выберите жанр</mat-label>
+    <select matNativeControl >
+      <option value="Comedy">Комедия</option>
+      <option value="Romance">Романтика</option>
+      <option value="Mystery">Мистика</option>
+      <option value="Thriller">Триллер</option>
+      <option value="Crime">Преступления</option>
+      <option value="War">Военные</option>
+      <option value="Action">Экшен</option>
+      <option value="Fantasy">Фэнтези</option>
+      <option value="Animation">Анимация</option>
+      <option value="Horror">Ужасы</option>
+      <option value="Sci-Fi">Фантастика</option>
+      <option value="Children">Детям</option>
+      <option value="Western">Вестерн</option>
+      <option value="Musical">Мюзикл</option>
+      <option value="Documentary">Документальный</option>
+    </select>
+  </mat-form-field>
+
+  @for(movie of films; track movie.title)
+  {
+  <app-movie-item [movie] = "movie"></app-movie-item>
+  }
+  @empty {
+  Empty list of users
+  }
+</div>

@@ -1,10 +1,10 @@
 <div class="movieItemContainer">
   <div class="nameGenreContainer">
-    <h3>Фильм</h3>
-    <p>Комедия, драма, трагедия</p>
+    <h3>{{movie.title}}</h3>
+    <p>{{movie.genres}}</p>
   </div>
   <div class="ratingCountContainer">
-    <p>4.56</p>
-    <p>13000</p>
+    <p>{{movie.rating | number:"1.1-2"}}</p>
+    <p>{{movie.rateCount}}</p>
   </div>
 </div>
