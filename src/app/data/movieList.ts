@@ -1,4 +1,4 @@
-const movies = {
+export const movies = {
   title: {
     378: "Shawshank Redemption, The (1994)",
     385: "Godfather, The (1972)",
