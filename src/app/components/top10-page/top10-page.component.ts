@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {movieList} from '/data/movieList';
 
 @Component({
   selector: 'app-top10-page',
